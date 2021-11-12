@@ -1,20 +1,29 @@
-<head>
-    <!-- This will show up on the tab in your browser -->
-    <title>My Portfolio</title>
+---
+layout: default
+title: Home
+---
 
-    <!-- This links your css file to the html -->
-    <link rel="stylesheet" type="text/css" href="index.css">
-</head>
+<h1> Home <br><br></h1>
 
-<body>
-    <!-- This is the start of the "About" section -->
-    <div class="about">
-        <h1>About</h1>
-        <p>Welcome to my portfolio</p>
-    </div>
+<style>
+.parallax {
+  /* The image used */
+  background-image: url("https://egreich.github.io/images/sev.jpg");
 
-    <!-- This is the start of the projects section -->
-    <div class="projects">
-        <h1>Projects</h1>
-    </div>
-</body>
+  /* Set a specific height */
+  height: 450px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+
+<!-- Container element -->
+<div class="parallax"></div>
+
+<p> <br><br> Hello! My name is Emma Reich. I'm an Informatics PhD student in the <a href="https://ecoinfo.nau.edu/">Ecological and Environmental Informatics</a> emphasis area in the School of Informatics, Computing, and Cyber Systems at Northern Arizona University.
+  <br><br> Please look <a href="/aboutme">here</a> for more information about me. </p>
+
